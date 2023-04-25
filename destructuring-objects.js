@@ -35,8 +35,12 @@ console.log(a, b);
 const person1 = {
     name: {
         firstName: 'Eshwar',
-        lastName: 'Nagaraj',
+        last: 'Nagaraj',
     },
     age: 23
 }
 //Nested object
+const {name: {firstName, last}} = person1;
+console.log(firstName);
+console.log(last);
+
