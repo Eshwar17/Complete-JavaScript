@@ -14,3 +14,11 @@ console.log(newArr3);
 //Spread operator on Strings
 const firstName = 'Eshwar';
 console.log(...firstName);
+
+//Spread operator on Objects
+const person = {
+    name: 'Eshwar',
+    age: 23
+}
+const person1 = {...person, id: 123};
+console.log(person1);
