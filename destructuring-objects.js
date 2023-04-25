@@ -37,8 +37,12 @@ const person1 = {
         firstName: 'Eshwar',
         last: 'Nagaraj',
     },
-    age: 23
+    age: 23,
+    hobby: function(obj) {
+        console.log(obj);
+    }
 }
+console.log(person1.hobby({id:1,nickName: 'Eshu'}));
 //Nested object
 const {name: {firstName, last}} = person1;
 console.log(firstName);
