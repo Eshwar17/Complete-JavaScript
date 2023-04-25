@@ -34,3 +34,9 @@ fir = sec;
 sec = temp;
 console.log(fir);
 console.log(sec);
+
+//Swapping without temp variable(Using Destructuring)
+[fir, sec] = [sec, fir];
+console.log(fir);
+console.log(sec);
+
