@@ -30,5 +30,13 @@ const obj = {
     b: 7,
     c: 12
 };
-({a, b} = obj);
+({a, b} = obj);//trick: Add parentheses to avoid erro
 console.log(a, b);
+const person1 = {
+    name: {
+        firstName: 'Eshwar',
+        lastName: 'Nagaraj',
+    },
+    age: 23
+}
+//Nested object
