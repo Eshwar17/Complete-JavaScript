@@ -11,3 +11,6 @@ const person = {
 const {name, age, hobbies} = person;
 
 console.log(name, age, hobbies);
+//Custom names for the props
+const {name: personName, age: personAge} = person;
+console.log(personName, personAge);
