@@ -10,3 +10,7 @@ console.log(newArr2);
 //Join 2 arrays
 const newArr3 = [...newArr, ...newArr2];
 console.log(newArr3);
+
+//Spread operator on Strings
+const firstName = 'Eshwar';
+console.log(...firstName);
