@@ -25,6 +25,12 @@ const [first, second] = person.hobbies;
 console.log(first);
 console.log(second);
 
-const [fir, , sec] = person.hobbies;
+let [fir, , sec] = person.hobbies;
+console.log(fir);
+console.log(sec);
+//Swapping in normal way
+const temp = fir;
+fir = sec;
+sec = temp;
 console.log(fir);
 console.log(sec);
