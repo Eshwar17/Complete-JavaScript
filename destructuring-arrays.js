@@ -52,3 +52,7 @@ const arr1 = [2, 3, [5, 6]];
 const [i, ,[j, k]] = arr1;
 console.log(i,j,k);
 
+//default values
+const [p=1, q=2, r=3] = [8,9];
+console.log(p,q,r);
+
