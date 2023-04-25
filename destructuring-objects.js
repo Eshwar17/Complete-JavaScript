@@ -7,3 +7,7 @@ const person = {
         return [this.hobbies[hobbieIndex], this.eatingHobbies[eatingHobbieIndex]];
     }
 }
+
+const {name, age, hobbies} = person;
+
+console.log(name, age, hobbies);
