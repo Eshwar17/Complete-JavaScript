@@ -47,4 +47,8 @@ console.log(sec);
 const [firstHobbie, secondHobbie] = person.favHobbies(2, 1);
 console.log(firstHobbie);
 console.log(secondHobbie);
+//Nested array destructuring
+const arr1 = [2, 3, [5, 6]];
+const [i, ,[j, k]] = arr1;
+console.log(i,j,k);
 
