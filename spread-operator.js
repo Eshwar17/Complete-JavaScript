@@ -6,3 +6,7 @@ console.log(newArr1);
 //copying the array
 const newArr2 = [...arr];
 console.log(newArr2);
+
+//Join 2 arrays
+const newArr3 = [...newArr, ...newArr2];
+console.log(newArr3);
