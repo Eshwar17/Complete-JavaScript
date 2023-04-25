@@ -24,3 +24,7 @@ const [first, second] = person.hobbies;
 
 console.log(first);
 console.log(second);
+
+const [fir, , sec] = person.hobbies;
+console.log(fir);
+console.log(sec);
