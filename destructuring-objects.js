@@ -14,3 +14,7 @@ console.log(name, age, hobbies);
 //Custom names for the props
 const {name: personName, age: personAge} = person;
 console.log(personName, personAge);
+
+//default valus to the props
+const {nam, lastName = 'Nagaraj'} = person;
+console.log(name, lastName);
