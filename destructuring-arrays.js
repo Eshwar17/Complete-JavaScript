@@ -18,7 +18,11 @@ console.log(z);
 const person = {
     name: "Eshwar",
     age: '23',
-    hobbies: ['Swimming', 'Dancing', 'Singing', 'Coding']
+    hobbies: ['Swimming', 'Dancing', 'Singing', 'Coding'],
+    eatingHobbies: ['Standing and eating', 'sitting and eating'],
+    favHobbies: function(hobbieIndex, eatingHobbieIndex) {
+        return [this.hobbies[hobbieIndex], this.eatingHobbies[eatingHobbieIndex]];
+    }
 }
 const [first, second] = person.hobbies;
 
@@ -39,4 +43,8 @@ console.log(sec);
 [fir, sec] = [sec, fir];
 console.log(fir);
 console.log(sec);
+
+const [firstHobbie, secondHobbie] = person.favHobbies(2, 1);
+console.log(firstHobbie);
+console.log(secondHobbie);
 
